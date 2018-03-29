@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1A4CA3200475800014EEE8 /* AvatarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A4CA2200475800014EEE8 /* AvatarController.swift */; };
+		3D1A4CA6200475800014EEE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A4CA4200475800014EEE8 /* Main.storyboard */; };
+		3D1A4CA8200475800014EEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A4CA7200475800014EEE8 /* Assets.xcassets */; };
+		3D1A4CAB200475800014EEE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1A4CA9200475800014EEE8 /* LaunchScreen.storyboard */; };
+		3D41E36F2005FD2900859189 /* AvatarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D41E36E2005FD2900859189 /* AvatarCollectionView.swift */; };
+		49545B1420060C77007F4BE5 /* AvatarGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49545B1320060C77007F4BE5 /* AvatarGenerator.swift */; };
+		49545B1620060C8C007F4BE5 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49545B1520060C8C007F4BE5 /* Avatar.swift */; };
+		4975ECC02006FACB00BBAA43 /* YUCIBilateralFilter.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC832006FACB00BBAA43 /* YUCIBilateralFilter.cikernel */; };
+		4975ECC12006FACB00BBAA43 /* YUCIBilateralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC852006FACB00BBAA43 /* YUCIBilateralFilter.m */; };
+		4975ECC22006FACB00BBAA43 /* YUCIBlobsGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC862006FACB00BBAA43 /* YUCIBlobsGenerator.cikernel */; };
+		4975ECC32006FACB00BBAA43 /* YUCIBlobsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC882006FACB00BBAA43 /* YUCIBlobsGenerator.m */; };
+		4975ECC42006FACB00BBAA43 /* YUCICLAHE.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC892006FACB00BBAA43 /* YUCICLAHE.cikernel */; };
+		4975ECC52006FACB00BBAA43 /* YUCICLAHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC8B2006FACB00BBAA43 /* YUCICLAHE.m */; };
+		4975ECC62006FACB00BBAA43 /* YUCIColorLookup.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC8C2006FACB00BBAA43 /* YUCIColorLookup.cikernel */; };
+		4975ECC72006FACB00BBAA43 /* YUCIColorLookup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC8E2006FACB00BBAA43 /* YUCIColorLookup.m */; };
+		4975ECC82006FACB00BBAA43 /* YUCIColorLookupTableDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC8F2006FACB00BBAA43 /* YUCIColorLookupTableDefault.png */; };
+		4975ECC92006FACB00BBAA43 /* YUCICrossZoomTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC902006FACB00BBAA43 /* YUCICrossZoomTransition.cikernel */; };
+		4975ECCA2006FACB00BBAA43 /* YUCICrossZoomTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC922006FACB00BBAA43 /* YUCICrossZoomTransition.m */; };
+		4975ECCB2006FACB00BBAA43 /* YUCIFilterConstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC942006FACB00BBAA43 /* YUCIFilterConstructor.m */; };
+		4975ECCC2006FACB00BBAA43 /* YUCIFilterPreviewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC962006FACB00BBAA43 /* YUCIFilterPreviewGenerator.m */; };
+		4975ECCD2006FACB00BBAA43 /* YUCIFilterUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC982006FACB00BBAA43 /* YUCIFilterUtilities.m */; };
+		4975ECCE2006FACB00BBAA43 /* YUCIFlashTransition.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC992006FACB00BBAA43 /* YUCIFlashTransition.cikernel */; };
+		4975ECCF2006FACB00BBAA43 /* YUCIFlashTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC9B2006FACB00BBAA43 /* YUCIFlashTransition.m */; };
+		4975ECD02006FACB00BBAA43 /* YUCIFXAA.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC9C2006FACB00BBAA43 /* YUCIFXAA.cikernel */; };
+		4975ECD12006FACB00BBAA43 /* YUCIFXAA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975EC9E2006FACB00BBAA43 /* YUCIFXAA.m */; };
+		4975ECD22006FACB00BBAA43 /* YUCIGreenBlueChannelOverlayBlend.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975EC9F2006FACB00BBAA43 /* YUCIGreenBlueChannelOverlayBlend.cikernel */; };
+		4975ECD32006FACB00BBAA43 /* YUCIHighPass.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECA02006FACB00BBAA43 /* YUCIHighPass.cikernel */; };
+		4975ECD42006FACB00BBAA43 /* YUCIHighPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECA22006FACB00BBAA43 /* YUCIHighPass.m */; };
+		4975ECD52006FACB00BBAA43 /* YUCIHighPassSkinSmoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECA42006FACB00BBAA43 /* YUCIHighPassSkinSmoothing.m */; };
+		4975ECD62006FACB00BBAA43 /* YUCIHighPassSkinSmoothingMaskBoost.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECA52006FACB00BBAA43 /* YUCIHighPassSkinSmoothingMaskBoost.cikernel */; };
+		4975ECD72006FACB00BBAA43 /* YUCIHistogramEqualization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECA72006FACB00BBAA43 /* YUCIHistogramEqualization.m */; };
+		4975ECD82006FACB00BBAA43 /* YUCIHSLToRGB.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECA82006FACB00BBAA43 /* YUCIHSLToRGB.cikernel */; };
+		4975ECD92006FACB00BBAA43 /* YUCIReflectedTile.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECA92006FACB00BBAA43 /* YUCIReflectedTile.cikernel */; };
+		4975ECDA2006FACB00BBAA43 /* YUCIReflectedTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECAB2006FACB00BBAA43 /* YUCIReflectedTile.m */; };
+		4975ECDB2006FACB00BBAA43 /* YUCIReflectedTileROICalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECAD2006FACB00BBAA43 /* YUCIReflectedTileROICalculator.m */; };
+		4975ECDC2006FACB00BBAA43 /* YUCIRGBToHSL.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECAE2006FACB00BBAA43 /* YUCIRGBToHSL.cikernel */; };
+		4975ECDD2006FACB00BBAA43 /* YUCIRGBToneCurve.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECAF2006FACB00BBAA43 /* YUCIRGBToneCurve.cikernel */; };
+		4975ECDE2006FACB00BBAA43 /* YUCIRGBToneCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECB12006FACB00BBAA43 /* YUCIRGBToneCurve.m */; };
+		4975ECDF2006FACB00BBAA43 /* YUCISkyGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECB22006FACB00BBAA43 /* YUCISkyGenerator.cikernel */; };
+		4975ECE02006FACB00BBAA43 /* YUCISkyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECB42006FACB00BBAA43 /* YUCISkyGenerator.m */; };
+		4975ECE12006FACB00BBAA43 /* YUCIStarfieldGenerator.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECB52006FACB00BBAA43 /* YUCIStarfieldGenerator.cikernel */; };
+		4975ECE22006FACB00BBAA43 /* YUCIStarfieldGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECB72006FACB00BBAA43 /* YUCIStarfieldGenerator.m */; };
+		4975ECE32006FACB00BBAA43 /* YUCISurfaceBlur.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECB82006FACB00BBAA43 /* YUCISurfaceBlur.cikernel */; };
+		4975ECE42006FACB00BBAA43 /* YUCISurfaceBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECBA2006FACB00BBAA43 /* YUCISurfaceBlur.m */; };
+		4975ECE52006FACB00BBAA43 /* YUCITriangularPixellate.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = 4975ECBB2006FACB00BBAA43 /* YUCITriangularPixellate.cikernel */; };
+		4975ECE62006FACB00BBAA43 /* YUCITriangularPixellate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECBD2006FACB00BBAA43 /* YUCITriangularPixellate.m */; };
+		4975ECE72006FACB00BBAA43 /* YUCIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECBF2006FACB00BBAA43 /* YUCIUtilities.m */; };
+		4975ECF42006FC3A00BBAA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECF12006FC3A00BBAA43 /* AppDelegate.swift */; };
+		4975ECF7200711EA00BBAA43 /* RUCGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975ECF6200711EA00BBAA43 /* RUCGImage.swift */; };
+		49DBDA2120048EC500E87BC3 /* RUNSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9EB20048EC400E87BC3 /* RUNSLayoutConstraint.swift */; };
+		49DBDA2320048EC500E87BC3 /* RUUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9ED20048EC400E87BC3 /* RUUIColor.swift */; };
+		49DBDA2420048EC500E87BC3 /* RUUIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9EE20048EC400E87BC3 /* RUUIDevice.swift */; };
+		49DBDA2520048EC500E87BC3 /* RUUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9EF20048EC400E87BC3 /* RUUIImage.swift */; };
+		49DBDA2620048EC500E87BC3 /* RUUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F020048EC400E87BC3 /* RUUILabel.swift */; };
+		49DBDA2720048EC500E87BC3 /* RUUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F120048EC400E87BC3 /* RUUIView.swift */; };
+		49DBDA2820048EC500E87BC3 /* RUUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F220048EC400E87BC3 /* RUUIViewController.swift */; };
+		49DBDA2920048EC500E87BC3 /* RUAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F320048EC400E87BC3 /* RUAction.swift */; };
+		49DBDA2A20048EC500E87BC3 /* RUAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F420048EC400E87BC3 /* RUAlert.swift */; };
+		49DBDA2C20048EC500E87BC3 /* RUAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F620048EC400E87BC3 /* RUAudio.swift */; };
+		49DBDA2D20048EC500E87BC3 /* RUBalloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F720048EC400E87BC3 /* RUBalloon.swift */; };
+		49DBDA2E20048EC500E87BC3 /* RUImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F820048EC400E87BC3 /* RUImagePicker.swift */; };
+		49DBDA2F20048EC500E87BC3 /* RUImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9F920048EC400E87BC3 /* RUImageView.swift */; };
+		49DBDA3020048EC500E87BC3 /* RUKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9FA20048EC400E87BC3 /* RUKeyboard.swift */; };
+		49DBDA3120048EC500E87BC3 /* RULabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9FB20048EC400E87BC3 /* RULabel.swift */; };
+		49DBDA3320048EC500E87BC3 /* RUScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9FD20048EC400E87BC3 /* RUScrollView.swift */; };
+		49DBDA3420048EC500E87BC3 /* RUSwipeBackNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9FE20048EC400E87BC3 /* RUSwipeBackNavigationController.swift */; };
+		49DBDA3520048EC500E87BC3 /* RUTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBD9FF20048EC400E87BC3 /* RUTableView.swift */; };
+		49DBDA3620048EC500E87BC3 /* RUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA0020048EC400E87BC3 /* RUTextField.swift */; };
+		49DBDA3720048EC500E87BC3 /* RUTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA0120048EC400E87BC3 /* RUTextView.swift */; };
+		49DBDA3820048EC500E87BC3 /* RUTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA0220048EC400E87BC3 /* RUTools.swift */; };
+		49DBDA3920048EC500E87BC3 /* RUTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA0320048EC400E87BC3 /* RUTouchView.swift */; };
+		49DBDA3A20048EC500E87BC3 /* RUViewWithXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA0420048EC400E87BC3 /* RUViewWithXib.swift */; };
+		49DBDA4120048EC500E87BC3 /* RUAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA0F20048EC400E87BC3 /* RUAttributedString.swift */; };
+		49DBDA4220048EC500E87BC3 /* RUCIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA1020048EC400E87BC3 /* RUCIImage.swift */; };
+		49DBDA4420048EC500E87BC3 /* RUData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA1220048EC400E87BC3 /* RUData.swift */; };
+		49DBDA4520048EC500E87BC3 /* RUDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA1320048EC400E87BC3 /* RUDate.swift */; };
+		49DBDA4720048EC500E87BC3 /* RUExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA1520048EC400E87BC3 /* RUExtensions.swift */; };
+		49DBDA4820048EC500E87BC3 /* RUNSMutableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA1620048EC400E87BC3 /* RUNSMutableData.swift */; };
+		49DBDA4920048EC500E87BC3 /* RUNSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA1720048EC400E87BC3 /* RUNSObject.swift */; };
+		49DBDA4B20048EC500E87BC3 /* RUString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA1A20048EC400E87BC3 /* RUString.swift */; };
+		49DBDA4E20048EC500E87BC3 /* RUTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DBDA1D20048EC400E87BC3 /* RUTimer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D1A4C9D200475800014EEE8 /* iAvatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAvatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1A4CA2200475800014EEE8 /* AvatarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarController.swift; sourceTree = "<group>"; };
+		3D1A4CA5200475800014EEE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D1A4CA7200475800014EEE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1A4CAA200475800014EEE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D41E36E2005FD2900859189 /* AvatarCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCollectionView.swift; sourceTree = "<group>"; };
+		49545B1320060C77007F4BE5 /* AvatarGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarGenerator.swift; sourceTree = "<group>"; };
+		49545B1520060C8C007F4BE5 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		4975EC832006FACB00BBAA43 /* YUCIBilateralFilter.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIBilateralFilter.cikernel; sourceTree = "<group>"; };
+		4975EC842006FACB00BBAA43 /* YUCIBilateralFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIBilateralFilter.h; sourceTree = "<group>"; };
+		4975EC852006FACB00BBAA43 /* YUCIBilateralFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIBilateralFilter.m; sourceTree = "<group>"; };
+		4975EC862006FACB00BBAA43 /* YUCIBlobsGenerator.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIBlobsGenerator.cikernel; sourceTree = "<group>"; };
+		4975EC872006FACB00BBAA43 /* YUCIBlobsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIBlobsGenerator.h; sourceTree = "<group>"; };
+		4975EC882006FACB00BBAA43 /* YUCIBlobsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIBlobsGenerator.m; sourceTree = "<group>"; };
+		4975EC892006FACB00BBAA43 /* YUCICLAHE.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCICLAHE.cikernel; sourceTree = "<group>"; };
+		4975EC8A2006FACB00BBAA43 /* YUCICLAHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCICLAHE.h; sourceTree = "<group>"; };
+		4975EC8B2006FACB00BBAA43 /* YUCICLAHE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCICLAHE.m; sourceTree = "<group>"; };
+		4975EC8C2006FACB00BBAA43 /* YUCIColorLookup.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIColorLookup.cikernel; sourceTree = "<group>"; };
+		4975EC8D2006FACB00BBAA43 /* YUCIColorLookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIColorLookup.h; sourceTree = "<group>"; };
+		4975EC8E2006FACB00BBAA43 /* YUCIColorLookup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIColorLookup.m; sourceTree = "<group>"; };
+		4975EC8F2006FACB00BBAA43 /* YUCIColorLookupTableDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YUCIColorLookupTableDefault.png; sourceTree = "<group>"; };
+		4975EC902006FACB00BBAA43 /* YUCICrossZoomTransition.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCICrossZoomTransition.cikernel; sourceTree = "<group>"; };
+		4975EC912006FACB00BBAA43 /* YUCICrossZoomTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCICrossZoomTransition.h; sourceTree = "<group>"; };
+		4975EC922006FACB00BBAA43 /* YUCICrossZoomTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCICrossZoomTransition.m; sourceTree = "<group>"; };
+		4975EC932006FACB00BBAA43 /* YUCIFilterConstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIFilterConstructor.h; sourceTree = "<group>"; };
+		4975EC942006FACB00BBAA43 /* YUCIFilterConstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIFilterConstructor.m; sourceTree = "<group>"; };
+		4975EC952006FACB00BBAA43 /* YUCIFilterPreviewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIFilterPreviewGenerator.h; sourceTree = "<group>"; };
+		4975EC962006FACB00BBAA43 /* YUCIFilterPreviewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIFilterPreviewGenerator.m; sourceTree = "<group>"; };
+		4975EC972006FACB00BBAA43 /* YUCIFilterUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIFilterUtilities.h; sourceTree = "<group>"; };
+		4975EC982006FACB00BBAA43 /* YUCIFilterUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIFilterUtilities.m; sourceTree = "<group>"; };
+		4975EC992006FACB00BBAA43 /* YUCIFlashTransition.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIFlashTransition.cikernel; sourceTree = "<group>"; };
+		4975EC9A2006FACB00BBAA43 /* YUCIFlashTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIFlashTransition.h; sourceTree = "<group>"; };
+		4975EC9B2006FACB00BBAA43 /* YUCIFlashTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIFlashTransition.m; sourceTree = "<group>"; };
+		4975EC9C2006FACB00BBAA43 /* YUCIFXAA.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIFXAA.cikernel; sourceTree = "<group>"; };
+		4975EC9D2006FACB00BBAA43 /* YUCIFXAA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIFXAA.h; sourceTree = "<group>"; };
+		4975EC9E2006FACB00BBAA43 /* YUCIFXAA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIFXAA.m; sourceTree = "<group>"; };
+		4975EC9F2006FACB00BBAA43 /* YUCIGreenBlueChannelOverlayBlend.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIGreenBlueChannelOverlayBlend.cikernel; sourceTree = "<group>"; };
+		4975ECA02006FACB00BBAA43 /* YUCIHighPass.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIHighPass.cikernel; sourceTree = "<group>"; };
+		4975ECA12006FACB00BBAA43 /* YUCIHighPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIHighPass.h; sourceTree = "<group>"; };
+		4975ECA22006FACB00BBAA43 /* YUCIHighPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIHighPass.m; sourceTree = "<group>"; };
+		4975ECA32006FACB00BBAA43 /* YUCIHighPassSkinSmoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIHighPassSkinSmoothing.h; sourceTree = "<group>"; };
+		4975ECA42006FACB00BBAA43 /* YUCIHighPassSkinSmoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIHighPassSkinSmoothing.m; sourceTree = "<group>"; };
+		4975ECA52006FACB00BBAA43 /* YUCIHighPassSkinSmoothingMaskBoost.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIHighPassSkinSmoothingMaskBoost.cikernel; sourceTree = "<group>"; };
+		4975ECA62006FACB00BBAA43 /* YUCIHistogramEqualization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIHistogramEqualization.h; sourceTree = "<group>"; };
+		4975ECA72006FACB00BBAA43 /* YUCIHistogramEqualization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIHistogramEqualization.m; sourceTree = "<group>"; };
+		4975ECA82006FACB00BBAA43 /* YUCIHSLToRGB.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIHSLToRGB.cikernel; sourceTree = "<group>"; };
+		4975ECA92006FACB00BBAA43 /* YUCIReflectedTile.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIReflectedTile.cikernel; sourceTree = "<group>"; };
+		4975ECAA2006FACB00BBAA43 /* YUCIReflectedTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIReflectedTile.h; sourceTree = "<group>"; };
+		4975ECAB2006FACB00BBAA43 /* YUCIReflectedTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIReflectedTile.m; sourceTree = "<group>"; };
+		4975ECAC2006FACB00BBAA43 /* YUCIReflectedTileROICalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIReflectedTileROICalculator.h; sourceTree = "<group>"; };
+		4975ECAD2006FACB00BBAA43 /* YUCIReflectedTileROICalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIReflectedTileROICalculator.m; sourceTree = "<group>"; };
+		4975ECAE2006FACB00BBAA43 /* YUCIRGBToHSL.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIRGBToHSL.cikernel; sourceTree = "<group>"; };
+		4975ECAF2006FACB00BBAA43 /* YUCIRGBToneCurve.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIRGBToneCurve.cikernel; sourceTree = "<group>"; };
+		4975ECB02006FACB00BBAA43 /* YUCIRGBToneCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIRGBToneCurve.h; sourceTree = "<group>"; };
+		4975ECB12006FACB00BBAA43 /* YUCIRGBToneCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIRGBToneCurve.m; sourceTree = "<group>"; };
+		4975ECB22006FACB00BBAA43 /* YUCISkyGenerator.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCISkyGenerator.cikernel; sourceTree = "<group>"; };
+		4975ECB32006FACB00BBAA43 /* YUCISkyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCISkyGenerator.h; sourceTree = "<group>"; };
+		4975ECB42006FACB00BBAA43 /* YUCISkyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCISkyGenerator.m; sourceTree = "<group>"; };
+		4975ECB52006FACB00BBAA43 /* YUCIStarfieldGenerator.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCIStarfieldGenerator.cikernel; sourceTree = "<group>"; };
+		4975ECB62006FACB00BBAA43 /* YUCIStarfieldGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIStarfieldGenerator.h; sourceTree = "<group>"; };
+		4975ECB72006FACB00BBAA43 /* YUCIStarfieldGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIStarfieldGenerator.m; sourceTree = "<group>"; };
+		4975ECB82006FACB00BBAA43 /* YUCISurfaceBlur.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCISurfaceBlur.cikernel; sourceTree = "<group>"; };
+		4975ECB92006FACB00BBAA43 /* YUCISurfaceBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCISurfaceBlur.h; sourceTree = "<group>"; };
+		4975ECBA2006FACB00BBAA43 /* YUCISurfaceBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCISurfaceBlur.m; sourceTree = "<group>"; };
+		4975ECBB2006FACB00BBAA43 /* YUCITriangularPixellate.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = YUCITriangularPixellate.cikernel; sourceTree = "<group>"; };
+		4975ECBC2006FACB00BBAA43 /* YUCITriangularPixellate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCITriangularPixellate.h; sourceTree = "<group>"; };
+		4975ECBD2006FACB00BBAA43 /* YUCITriangularPixellate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCITriangularPixellate.m; sourceTree = "<group>"; };
+		4975ECBE2006FACB00BBAA43 /* YUCIUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUCIUtilities.h; sourceTree = "<group>"; };
+		4975ECBF2006FACB00BBAA43 /* YUCIUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUCIUtilities.m; sourceTree = "<group>"; };
+		4975ECF12006FC3A00BBAA43 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4975ECF22006FC3A00BBAA43 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		4975ECF32006FC3A00BBAA43 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4975ECF6200711EA00BBAA43 /* RUCGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RUCGImage.swift; sourceTree = "<group>"; };
+		49DBD9EB20048EC400E87BC3 /* RUNSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUNSLayoutConstraint.swift; sourceTree = "<group>"; };
+		49DBD9ED20048EC400E87BC3 /* RUUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUUIColor.swift; sourceTree = "<group>"; };
+		49DBD9EE20048EC400E87BC3 /* RUUIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUUIDevice.swift; sourceTree = "<group>"; };
+		49DBD9EF20048EC400E87BC3 /* RUUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUUIImage.swift; sourceTree = "<group>"; };
+		49DBD9F020048EC400E87BC3 /* RUUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUUILabel.swift; sourceTree = "<group>"; };
+		49DBD9F120048EC400E87BC3 /* RUUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUUIView.swift; sourceTree = "<group>"; };
+		49DBD9F220048EC400E87BC3 /* RUUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUUIViewController.swift; sourceTree = "<group>"; };
+		49DBD9F320048EC400E87BC3 /* RUAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUAction.swift; sourceTree = "<group>"; };
+		49DBD9F420048EC400E87BC3 /* RUAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUAlert.swift; sourceTree = "<group>"; };
+		49DBD9F620048EC400E87BC3 /* RUAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUAudio.swift; sourceTree = "<group>"; };
+		49DBD9F720048EC400E87BC3 /* RUBalloon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUBalloon.swift; sourceTree = "<group>"; };
+		49DBD9F820048EC400E87BC3 /* RUImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUImagePicker.swift; sourceTree = "<group>"; };
+		49DBD9F920048EC400E87BC3 /* RUImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUImageView.swift; sourceTree = "<group>"; };
+		49DBD9FA20048EC400E87BC3 /* RUKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUKeyboard.swift; sourceTree = "<group>"; };
+		49DBD9FB20048EC400E87BC3 /* RULabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RULabel.swift; sourceTree = "<group>"; };
+		49DBD9FD20048EC400E87BC3 /* RUScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUScrollView.swift; sourceTree = "<group>"; };
+		49DBD9FE20048EC400E87BC3 /* RUSwipeBackNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUSwipeBackNavigationController.swift; sourceTree = "<group>"; };
+		49DBD9FF20048EC400E87BC3 /* RUTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUTableView.swift; sourceTree = "<group>"; };
+		49DBDA0020048EC400E87BC3 /* RUTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUTextField.swift; sourceTree = "<group>"; };
+		49DBDA0120048EC400E87BC3 /* RUTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUTextView.swift; sourceTree = "<group>"; };
+		49DBDA0220048EC400E87BC3 /* RUTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUTools.swift; sourceTree = "<group>"; };
+		49DBDA0320048EC400E87BC3 /* RUTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUTouchView.swift; sourceTree = "<group>"; };
+		49DBDA0420048EC400E87BC3 /* RUViewWithXib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUViewWithXib.swift; sourceTree = "<group>"; };
+		49DBDA0F20048EC400E87BC3 /* RUAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUAttributedString.swift; sourceTree = "<group>"; };
+		49DBDA1020048EC400E87BC3 /* RUCIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUCIImage.swift; sourceTree = "<group>"; };
+		49DBDA1220048EC400E87BC3 /* RUData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUData.swift; sourceTree = "<group>"; };
+		49DBDA1320048EC400E87BC3 /* RUDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUDate.swift; sourceTree = "<group>"; };
+		49DBDA1520048EC400E87BC3 /* RUExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUExtensions.swift; sourceTree = "<group>"; };
+		49DBDA1620048EC400E87BC3 /* RUNSMutableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUNSMutableData.swift; sourceTree = "<group>"; };
+		49DBDA1720048EC400E87BC3 /* RUNSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUNSObject.swift; sourceTree = "<group>"; };
+		49DBDA1A20048EC400E87BC3 /* RUString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUString.swift; sourceTree = "<group>"; };
+		49DBDA1D20048EC400E87BC3 /* RUTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUTimer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1A4C9A200475800014EEE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1A4C94200475800014EEE8 = {
+			isa = PBXGroup;
+			children = (
+				49DBD9E720048EC400E87BC3 /* RUFramework */,
+				4975EC822006FACB00BBAA43 /* YUFilters */,
+				3D1A4C9F200475800014EEE8 /* iAvatar */,
+				3D1A4C9E200475800014EEE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1A4C9E200475800014EEE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1A4C9D200475800014EEE8 /* iAvatar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1A4C9F200475800014EEE8 /* iAvatar */ = {
+			isa = PBXGroup;
+			children = (
+				4975ECF02006FC3A00BBAA43 /* Main */,
+				3D1A4CA2200475800014EEE8 /* AvatarController.swift */,
+				49545B1320060C77007F4BE5 /* AvatarGenerator.swift */,
+				49545B1520060C8C007F4BE5 /* Avatar.swift */,
+				3D41E36E2005FD2900859189 /* AvatarCollectionView.swift */,
+				3D1A4CA4200475800014EEE8 /* Main.storyboard */,
+				3D1A4CA7200475800014EEE8 /* Assets.xcassets */,
+				3D1A4CA9200475800014EEE8 /* LaunchScreen.storyboard */,
+				49545AF92005E05E007F4BE5 /* resources */,
+			);
+			path = iAvatar;
+			sourceTree = "<group>";
+		};
+		49545AF92005E05E007F4BE5 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		4975EC822006FACB00BBAA43 /* YUFilters */ = {
+			isa = PBXGroup;
+			children = (
+				4975EC832006FACB00BBAA43 /* YUCIBilateralFilter.cikernel */,
+				4975EC842006FACB00BBAA43 /* YUCIBilateralFilter.h */,
+				4975EC852006FACB00BBAA43 /* YUCIBilateralFilter.m */,
+				4975EC862006FACB00BBAA43 /* YUCIBlobsGenerator.cikernel */,
+				4975EC872006FACB00BBAA43 /* YUCIBlobsGenerator.h */,
+				4975EC882006FACB00BBAA43 /* YUCIBlobsGenerator.m */,
+				4975EC892006FACB00BBAA43 /* YUCICLAHE.cikernel */,
+				4975EC8A2006FACB00BBAA43 /* YUCICLAHE.h */,
+				4975EC8B2006FACB00BBAA43 /* YUCICLAHE.m */,
+				4975EC8C2006FACB00BBAA43 /* YUCIColorLookup.cikernel */,
+				4975EC8D2006FACB00BBAA43 /* YUCIColorLookup.h */,
+				4975EC8E2006FACB00BBAA43 /* YUCIColorLookup.m */,
+				4975EC8F2006FACB00BBAA43 /* YUCIColorLookupTableDefault.png */,
+				4975EC902006FACB00BBAA43 /* YUCICrossZoomTransition.cikernel */,
+				4975EC912006FACB00BBAA43 /* YUCICrossZoomTransition.h */,
+				4975EC922006FACB00BBAA43 /* YUCICrossZoomTransition.m */,
+				4975EC932006FACB00BBAA43 /* YUCIFilterConstructor.h */,
+				4975EC942006FACB00BBAA43 /* YUCIFilterConstructor.m */,
+				4975EC952006FACB00BBAA43 /* YUCIFilterPreviewGenerator.h */,
+				4975EC962006FACB00BBAA43 /* YUCIFilterPreviewGenerator.m */,
+				4975EC972006FACB00BBAA43 /* YUCIFilterUtilities.h */,
+				4975EC982006FACB00BBAA43 /* YUCIFilterUtilities.m */,
+				4975EC992006FACB00BBAA43 /* YUCIFlashTransition.cikernel */,
+				4975EC9A2006FACB00BBAA43 /* YUCIFlashTransition.h */,
+				4975EC9B2006FACB00BBAA43 /* YUCIFlashTransition.m */,
+				4975EC9C2006FACB00BBAA43 /* YUCIFXAA.cikernel */,
+				4975EC9D2006FACB00BBAA43 /* YUCIFXAA.h */,
+				4975EC9E2006FACB00BBAA43 /* YUCIFXAA.m */,
+				4975EC9F2006FACB00BBAA43 /* YUCIGreenBlueChannelOverlayBlend.cikernel */,
+				4975ECA02006FACB00BBAA43 /* YUCIHighPass.cikernel */,
+				4975ECA12006FACB00BBAA43 /* YUCIHighPass.h */,
+				4975ECA22006FACB00BBAA43 /* YUCIHighPass.m */,
+				4975ECA32006FACB00BBAA43 /* YUCIHighPassSkinSmoothing.h */,
+				4975ECA42006FACB00BBAA43 /* YUCIHighPassSkinSmoothing.m */,
+				4975ECA52006FACB00BBAA43 /* YUCIHighPassSkinSmoothingMaskBoost.cikernel */,
+				4975ECA62006FACB00BBAA43 /* YUCIHistogramEqualization.h */,
+				4975ECA72006FACB00BBAA43 /* YUCIHistogramEqualization.m */,
+				4975ECA82006FACB00BBAA43 /* YUCIHSLToRGB.cikernel */,
+				4975ECA92006FACB00BBAA43 /* YUCIReflectedTile.cikernel */,
+				4975ECAA2006FACB00BBAA43 /* YUCIReflectedTile.h */,
+				4975ECAB2006FACB00BBAA43 /* YUCIReflectedTile.m */,
+				4975ECAC2006FACB00BBAA43 /* YUCIReflectedTileROICalculator.h */,
+				4975ECAD2006FACB00BBAA43 /* YUCIReflectedTileROICalculator.m */,
+				4975ECAE2006FACB00BBAA43 /* YUCIRGBToHSL.cikernel */,
+				4975ECAF2006FACB00BBAA43 /* YUCIRGBToneCurve.cikernel */,
+				4975ECB02006FACB00BBAA43 /* YUCIRGBToneCurve.h */,
+				4975ECB12006FACB00BBAA43 /* YUCIRGBToneCurve.m */,
+				4975ECB22006FACB00BBAA43 /* YUCISkyGenerator.cikernel */,
+				4975ECB32006FACB00BBAA43 /* YUCISkyGenerator.h */,
+				4975ECB42006FACB00BBAA43 /* YUCISkyGenerator.m */,
+				4975ECB52006FACB00BBAA43 /* YUCIStarfieldGenerator.cikernel */,
+				4975ECB62006FACB00BBAA43 /* YUCIStarfieldGenerator.h */,
+				4975ECB72006FACB00BBAA43 /* YUCIStarfieldGenerator.m */,
+				4975ECB82006FACB00BBAA43 /* YUCISurfaceBlur.cikernel */,
+				4975ECB92006FACB00BBAA43 /* YUCISurfaceBlur.h */,
+				4975ECBA2006FACB00BBAA43 /* YUCISurfaceBlur.m */,
+				4975ECBB2006FACB00BBAA43 /* YUCITriangularPixellate.cikernel */,
+				4975ECBC2006FACB00BBAA43 /* YUCITriangularPixellate.h */,
+				4975ECBD2006FACB00BBAA43 /* YUCITriangularPixellate.m */,
+				4975ECBE2006FACB00BBAA43 /* YUCIUtilities.h */,
+				4975ECBF2006FACB00BBAA43 /* YUCIUtilities.m */,
+			);
+			name = YUFilters;
+			path = iAvatar/YUFilters;
+			sourceTree = "<group>";
+		};
+		4975ECF02006FC3A00BBAA43 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4975ECF12006FC3A00BBAA43 /* AppDelegate.swift */,
+				4975ECF22006FC3A00BBAA43 /* Bridging-Header.h */,
+				4975ECF32006FC3A00BBAA43 /* Info.plist */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		49DBD9E720048EC400E87BC3 /* RUFramework */ = {
+			isa = PBXGroup;
+			children = (
+				49DBD9E820048EC400E87BC3 /* IOS */,
+				49DBDA0820048EC400E87BC3 /* Shared */,
+			);
+			name = RUFramework;
+			path = ../../RUFramework;
+			sourceTree = "<group>";
+		};
+		49DBD9E820048EC400E87BC3 /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				49DBD9E920048EC400E87BC3 /* Extensions */,
+				49DBD9F320048EC400E87BC3 /* RUAction.swift */,
+				49DBD9F420048EC400E87BC3 /* RUAlert.swift */,
+				49DBD9F620048EC400E87BC3 /* RUAudio.swift */,
+				49DBD9F720048EC400E87BC3 /* RUBalloon.swift */,
+				49DBD9F820048EC400E87BC3 /* RUImagePicker.swift */,
+				49DBD9F920048EC400E87BC3 /* RUImageView.swift */,
+				49DBD9FA20048EC400E87BC3 /* RUKeyboard.swift */,
+				49DBD9FB20048EC400E87BC3 /* RULabel.swift */,
+				49DBD9FD20048EC400E87BC3 /* RUScrollView.swift */,
+				49DBD9FE20048EC400E87BC3 /* RUSwipeBackNavigationController.swift */,
+				49DBD9FF20048EC400E87BC3 /* RUTableView.swift */,
+				49DBDA0020048EC400E87BC3 /* RUTextField.swift */,
+				49DBDA0120048EC400E87BC3 /* RUTextView.swift */,
+				49DBDA0220048EC400E87BC3 /* RUTools.swift */,
+				49DBDA0320048EC400E87BC3 /* RUTouchView.swift */,
+				49DBDA0420048EC400E87BC3 /* RUViewWithXib.swift */,
+			);
+			path = IOS;
+			sourceTree = "<group>";
+		};
+		49DBD9E920048EC400E87BC3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49DBD9EB20048EC400E87BC3 /* RUNSLayoutConstraint.swift */,
+				49DBD9ED20048EC400E87BC3 /* RUUIColor.swift */,
+				49DBD9EE20048EC400E87BC3 /* RUUIDevice.swift */,
+				49DBD9EF20048EC400E87BC3 /* RUUIImage.swift */,
+				4975ECF6200711EA00BBAA43 /* RUCGImage.swift */,
+				49DBD9F020048EC400E87BC3 /* RUUILabel.swift */,
+				49DBD9F120048EC400E87BC3 /* RUUIView.swift */,
+				49DBD9F220048EC400E87BC3 /* RUUIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49DBDA0820048EC400E87BC3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				49DBDA0920048EC400E87BC3 /* Extensions */,
+				49DBDA1D20048EC400E87BC3 /* RUTimer.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		49DBDA0920048EC400E87BC3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				49DBDA0F20048EC400E87BC3 /* RUAttributedString.swift */,
+				49DBDA1020048EC400E87BC3 /* RUCIImage.swift */,
+				49DBDA1220048EC400E87BC3 /* RUData.swift */,
+				49DBDA1320048EC400E87BC3 /* RUDate.swift */,
+				49DBDA1520048EC400E87BC3 /* RUExtensions.swift */,
+				49DBDA1620048EC400E87BC3 /* RUNSMutableData.swift */,
+				49DBDA1720048EC400E87BC3 /* RUNSObject.swift */,
+				49DBDA1A20048EC400E87BC3 /* RUString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1A4C9C200475800014EEE8 /* iAvatar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1A4CAF200475800014EEE8 /* Build configuration list for PBXNativeTarget "iAvatar" */;
+			buildPhases = (
+				3D1A4C99200475800014EEE8 /* Sources */,
+				3D1A4C9A200475800014EEE8 /* Frameworks */,
+				3D1A4C9B200475800014EEE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iAvatar;
+			productName = iAvatar;
+			productReference = 3D1A4C9D200475800014EEE8 /* iAvatar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1A4C95200475800014EEE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jakub Tlach";
+				TargetAttributes = {
+					3D1A4C9C200475800014EEE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3D1A4C98200475800014EEE8 /* Build configuration list for PBXProject "iAvatar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1A4C94200475800014EEE8;
+			productRefGroup = 3D1A4C9E200475800014EEE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1A4C9C200475800014EEE8 /* iAvatar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1A4C9B200475800014EEE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4975ECDC2006FACB00BBAA43 /* YUCIRGBToHSL.cikernel in Resources */,
+				4975ECC42006FACB00BBAA43 /* YUCICLAHE.cikernel in Resources */,
+				4975ECD32006FACB00BBAA43 /* YUCIHighPass.cikernel in Resources */,
+				3D1A4CAB200475800014EEE8 /* LaunchScreen.storyboard in Resources */,
+				4975ECC82006FACB00BBAA43 /* YUCIColorLookupTableDefault.png in Resources */,
+				4975ECE32006FACB00BBAA43 /* YUCISurfaceBlur.cikernel in Resources */,
+				3D1A4CA8200475800014EEE8 /* Assets.xcassets in Resources */,
+				4975ECC62006FACB00BBAA43 /* YUCIColorLookup.cikernel in Resources */,
+				4975ECC92006FACB00BBAA43 /* YUCICrossZoomTransition.cikernel in Resources */,
+				4975ECDF2006FACB00BBAA43 /* YUCISkyGenerator.cikernel in Resources */,
+				4975ECD02006FACB00BBAA43 /* YUCIFXAA.cikernel in Resources */,
+				4975ECD22006FACB00BBAA43 /* YUCIGreenBlueChannelOverlayBlend.cikernel in Resources */,
+				4975ECE52006FACB00BBAA43 /* YUCITriangularPixellate.cikernel in Resources */,
+				4975ECD62006FACB00BBAA43 /* YUCIHighPassSkinSmoothingMaskBoost.cikernel in Resources */,
+				4975ECCE2006FACB00BBAA43 /* YUCIFlashTransition.cikernel in Resources */,
+				4975ECE12006FACB00BBAA43 /* YUCIStarfieldGenerator.cikernel in Resources */,
+				4975ECD92006FACB00BBAA43 /* YUCIReflectedTile.cikernel in Resources */,
+				3D1A4CA6200475800014EEE8 /* Main.storyboard in Resources */,
+				4975ECDD2006FACB00BBAA43 /* YUCIRGBToneCurve.cikernel in Resources */,
+				4975ECC02006FACB00BBAA43 /* YUCIBilateralFilter.cikernel in Resources */,
+				4975ECC22006FACB00BBAA43 /* YUCIBlobsGenerator.cikernel in Resources */,
+				4975ECD82006FACB00BBAA43 /* YUCIHSLToRGB.cikernel in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1A4C99200475800014EEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DBDA4520048EC500E87BC3 /* RUDate.swift in Sources */,
+				49DBDA2820048EC500E87BC3 /* RUUIViewController.swift in Sources */,
+				49DBDA2F20048EC500E87BC3 /* RUImageView.swift in Sources */,
+				4975ECE22006FACB00BBAA43 /* YUCIStarfieldGenerator.m in Sources */,
+				4975ECDA2006FACB00BBAA43 /* YUCIReflectedTile.m in Sources */,
+				49DBDA2620048EC500E87BC3 /* RUUILabel.swift in Sources */,
+				4975ECC12006FACB00BBAA43 /* YUCIBilateralFilter.m in Sources */,
+				4975ECF7200711EA00BBAA43 /* RUCGImage.swift in Sources */,
+				4975ECC52006FACB00BBAA43 /* YUCICLAHE.m in Sources */,
+				49DBDA3820048EC500E87BC3 /* RUTools.swift in Sources */,
+				49DBDA4220048EC500E87BC3 /* RUCIImage.swift in Sources */,
+				49DBDA2920048EC500E87BC3 /* RUAction.swift in Sources */,
+				4975ECC72006FACB00BBAA43 /* YUCIColorLookup.m in Sources */,
+				4975ECD12006FACB00BBAA43 /* YUCIFXAA.m in Sources */,
+				49DBDA2E20048EC500E87BC3 /* RUImagePicker.swift in Sources */,
+				4975ECCD2006FACB00BBAA43 /* YUCIFilterUtilities.m in Sources */,
+				49DBDA3620048EC500E87BC3 /* RUTextField.swift in Sources */,
+				49DBDA3720048EC500E87BC3 /* RUTextView.swift in Sources */,
+				49DBDA2720048EC500E87BC3 /* RUUIView.swift in Sources */,
+				49DBDA2120048EC500E87BC3 /* RUNSLayoutConstraint.swift in Sources */,
+				49DBDA4420048EC500E87BC3 /* RUData.swift in Sources */,
+				4975ECF42006FC3A00BBAA43 /* AppDelegate.swift in Sources */,
+				49DBDA3020048EC500E87BC3 /* RUKeyboard.swift in Sources */,
+				49DBDA3320048EC500E87BC3 /* RUScrollView.swift in Sources */,
+				49DBDA2520048EC500E87BC3 /* RUUIImage.swift in Sources */,
+				3D41E36F2005FD2900859189 /* AvatarCollectionView.swift in Sources */,
+				4975ECCA2006FACB00BBAA43 /* YUCICrossZoomTransition.m in Sources */,
+				49545B1620060C8C007F4BE5 /* Avatar.swift in Sources */,
+				49DBDA4720048EC500E87BC3 /* RUExtensions.swift in Sources */,
+				49DBDA3420048EC500E87BC3 /* RUSwipeBackNavigationController.swift in Sources */,
+				49DBDA3920048EC500E87BC3 /* RUTouchView.swift in Sources */,
+				49DBDA4B20048EC500E87BC3 /* RUString.swift in Sources */,
+				4975ECD72006FACB00BBAA43 /* YUCIHistogramEqualization.m in Sources */,
+				49DBDA3520048EC500E87BC3 /* RUTableView.swift in Sources */,
+				4975ECC32006FACB00BBAA43 /* YUCIBlobsGenerator.m in Sources */,
+				4975ECCC2006FACB00BBAA43 /* YUCIFilterPreviewGenerator.m in Sources */,
+				4975ECCB2006FACB00BBAA43 /* YUCIFilterConstructor.m in Sources */,
+				4975ECDB2006FACB00BBAA43 /* YUCIReflectedTileROICalculator.m in Sources */,
+				4975ECE42006FACB00BBAA43 /* YUCISurfaceBlur.m in Sources */,
+				49545B1420060C77007F4BE5 /* AvatarGenerator.swift in Sources */,
+				49DBDA2D20048EC500E87BC3 /* RUBalloon.swift in Sources */,
+				49DBDA2320048EC500E87BC3 /* RUUIColor.swift in Sources */,
+				49DBDA4E20048EC500E87BC3 /* RUTimer.swift in Sources */,
+				4975ECE02006FACB00BBAA43 /* YUCISkyGenerator.m in Sources */,
+				49DBDA3A20048EC500E87BC3 /* RUViewWithXib.swift in Sources */,
+				3D1A4CA3200475800014EEE8 /* AvatarController.swift in Sources */,
+				49DBDA4920048EC500E87BC3 /* RUNSObject.swift in Sources */,
+				49DBDA2A20048EC500E87BC3 /* RUAlert.swift in Sources */,
+				4975ECE62006FACB00BBAA43 /* YUCITriangularPixellate.m in Sources */,
+				4975ECE72006FACB00BBAA43 /* YUCIUtilities.m in Sources */,
+				4975ECD52006FACB00BBAA43 /* YUCIHighPassSkinSmoothing.m in Sources */,
+				49DBDA2C20048EC500E87BC3 /* RUAudio.swift in Sources */,
+				4975ECD42006FACB00BBAA43 /* YUCIHighPass.m in Sources */,
+				4975ECCF2006FACB00BBAA43 /* YUCIFlashTransition.m in Sources */,
+				49DBDA2420048EC500E87BC3 /* RUUIDevice.swift in Sources */,
+				49DBDA4820048EC500E87BC3 /* RUNSMutableData.swift in Sources */,
+				49DBDA4120048EC500E87BC3 /* RUAttributedString.swift in Sources */,
+				4975ECDE2006FACB00BBAA43 /* YUCIRGBToneCurve.m in Sources */,
+				49DBDA3120048EC500E87BC3 /* RULabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D1A4CA4200475800014EEE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1A4CA5200475800014EEE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D1A4CA9200475800014EEE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1A4CAA200475800014EEE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D1A4CAD200475800014EEE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D1A4CAE200475800014EEE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1A4CB0200475800014EEE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8W8M6CAUQE;
+				INFOPLIST_FILE = iAvatar/Main/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RiseUp.iAvatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "530e3c64-9b7c-44bd-a0c6-c1f0e4c07643";
+				PROVISIONING_PROFILE_SPECIFIER = "*";
+				SWIFT_OBJC_BRIDGING_HEADER = "iAvatar/Main/Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D1A4CB1200475800014EEE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8W8M6CAUQE;
+				INFOPLIST_FILE = iAvatar/Main/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RiseUp.iAvatar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "530e3c64-9b7c-44bd-a0c6-c1f0e4c07643";
+				PROVISIONING_PROFILE_SPECIFIER = "*";
+				SWIFT_OBJC_BRIDGING_HEADER = "iAvatar/Main/Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1A4C98200475800014EEE8 /* Build configuration list for PBXProject "iAvatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1A4CAD200475800014EEE8 /* Debug */,
+				3D1A4CAE200475800014EEE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1A4CAF200475800014EEE8 /* Build configuration list for PBXNativeTarget "iAvatar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1A4CB0200475800014EEE8 /* Debug */,
+				3D1A4CB1200475800014EEE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D1A4C95200475800014EEE8 /* Project object */;
+}
